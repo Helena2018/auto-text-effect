@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #0082c8;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   display: flex;
@@ -13,4 +14,30 @@ body {
   justify-content: center;
   overflow: hidden;
   height: 100vh;
+}
+
+h1 {
+  color: #fff;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  color: #fff;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  background-color: #0082c8;
+}
+
+input:focus {
+  outline: none;
 }
